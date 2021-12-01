@@ -26,6 +26,7 @@
         "illuminate/encryption": "^8.2",
         "illuminate/http": "^8.2",
         "illuminate/support": "^8.2",
+        "jenssegers/mongodb": "^3.8",
         "lcobucci/jwt": "^3.4|^4.0",
         "league/oauth2-server": "^8.2",
         "nyholm/psr7": "^1.3",
