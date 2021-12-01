@@ -2,10 +2,19 @@
 
 namespace DiegoAgudo\Passport;
 
+use Jenssegers\Mongodb\Eloquent\HybridRelations;
 use Jenssegers\Mongodb\Eloquent\Model;
 
 class PersonalAccessClient extends Model
 {
+    use HybridRelations;
+
+    /**
+     * Primary key
+     * @var string
+     */
+    protected $primaryKey = 'id';
+
     /**
      * The database table used by the model.
      *

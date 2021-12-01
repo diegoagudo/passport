@@ -9,7 +9,13 @@ use DiegoAgudo\Passport\Database\Factories\ClientFactory;
 
 class Client extends Model
 {
-    use HasFactory;
+    use HasFactory, HybridRelations;
+
+    /**
+     * Primary key
+     * @var string
+     */
+    protected $primaryKey = 'id';
 
     /**
      * The database table used by the model.

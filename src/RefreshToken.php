@@ -6,6 +6,14 @@ use Jenssegers\Mongodb\Eloquent\Model;
 
 class RefreshToken extends Model
 {
+    use HybridRelations;
+
+    /**
+     * Primary key
+     * @var string
+     */
+    protected $primaryKey = 'id';
+
     /**
      * The database table used by the model.
      *
