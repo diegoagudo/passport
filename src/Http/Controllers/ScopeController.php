@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace DiegoAgudo\Passport\Http\Controllers;
 
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Passport;
 
 class ScopeController
 {

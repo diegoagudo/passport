@@ -1,17 +1,17 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace DiegoAgudo\Passport\Tests\Feature;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Contracts\Hashing\Hasher;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Laravel\Passport\Client;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Database\Factories\ClientFactory;
-use Laravel\Passport\HasApiTokens;
-use Laravel\Passport\Token;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Database\Factories\ClientFactory;
+use DiegoAgudo\Passport\HasApiTokens;
+use DiegoAgudo\Passport\Token;
+use DiegoAgudo\Passport\TokenRepository;
 use Lcobucci\JWT\Configuration;
 
 class AccessTokenControllerTest extends PassportTestCase

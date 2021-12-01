@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Exceptions;
+namespace DiegoAgudo\Passport\Exceptions;
 
 use Illuminate\Auth\Access\AuthorizationException;
 

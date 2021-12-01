@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\AuthCode;
-use Laravel\Passport\Client;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Passport;
-use Laravel\Passport\PersonalAccessClient;
-use Laravel\Passport\RefreshToken;
-use Laravel\Passport\Token;
+use DiegoAgudo\Passport\AuthCode;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\PersonalAccessClient;
+use DiegoAgudo\Passport\RefreshToken;
+use DiegoAgudo\Passport\Token;
 use PHPUnit\Framework\TestCase;
 
 class PassportTest extends TestCase

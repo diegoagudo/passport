@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace DiegoAgudo\Passport;
 
 use Lcobucci\JWT\Parser as JwtParser;
 use League\OAuth2\Server\AuthorizationServer;
@@ -20,14 +20,14 @@ class PersonalAccessTokenFactory
     /**
      * The client repository instance.
      *
-     * @var \Laravel\Passport\ClientRepository
+     * @var \DiegoAgudo\Passport\ClientRepository
      */
     protected $clients;
 
     /**
      * The token repository instance.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \DiegoAgudo\Passport\TokenRepository
      */
     protected $tokens;
 
@@ -44,8 +44,8 @@ class PersonalAccessTokenFactory
      * Create a new personal access token factory instance.
      *
      * @param  \League\OAuth2\Server\AuthorizationServer  $server
-     * @param  \Laravel\Passport\ClientRepository  $clients
-     * @param  \Laravel\Passport\TokenRepository  $tokens
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\TokenRepository  $tokens
      * @param  \Lcobucci\JWT\Parser  $jwt
      * @return void
      */
@@ -66,7 +66,7 @@ class PersonalAccessTokenFactory
      * @param  mixed  $userId
      * @param  string  $name
      * @param  array  $scopes
-     * @return \Laravel\Passport\PersonalAccessTokenResult
+     * @return \DiegoAgudo\Passport\PersonalAccessTokenResult
      */
     public function make($userId, $name, array $scopes = [])
     {
@@ -89,7 +89,7 @@ class PersonalAccessTokenFactory
     /**
      * Create a request instance for the given client.
      *
-     * @param  \Laravel\Passport\Client  $client
+     * @param  \DiegoAgudo\Passport\Client  $client
      * @param  mixed  $userId
      * @param  array  $scopes
      * @return \Psr\Http\Message\ServerRequestInterface
@@ -124,7 +124,7 @@ class PersonalAccessTokenFactory
      * Get the access token instance for the parsed response.
      *
      * @param  array  $response
-     * @return \Laravel\Passport\Token
+     * @return \DiegoAgudo\Passport\Token
      */
     protected function findAccessToken(array $response)
     {

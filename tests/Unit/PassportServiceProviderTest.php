@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Contracts\Foundation\Application as App;
-use Laravel\Passport\Passport;
-use Laravel\Passport\PassportServiceProvider;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\PassportServiceProvider;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 

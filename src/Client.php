@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport;
+namespace DiegoAgudo\Passport;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Support\Str;
-use Laravel\Passport\Database\Factories\ClientFactory;
+use DiegoAgudo\Passport\Database\Factories\ClientFactory;
 
 class Client extends Model
 {

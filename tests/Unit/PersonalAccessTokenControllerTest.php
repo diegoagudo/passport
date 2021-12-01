@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Http\Request;
-use Laravel\Passport\Http\Controllers\PersonalAccessTokenController;
-use Laravel\Passport\Passport;
-use Laravel\Passport\Token;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Http\Controllers\PersonalAccessTokenController;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\Token;
+use DiegoAgudo\Passport\TokenRepository;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Response;

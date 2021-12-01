@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace DiegoAgudo\Passport\Tests\Feature;
 
 use Mockery as m;
 

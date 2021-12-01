@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace DiegoAgudo\Passport;
 
 use DateInterval;
 use Illuminate\Auth\Events\Logout;
@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Passport\Bridge\PersonalAccessGrant;
-use Laravel\Passport\Bridge\RefreshTokenRepository;
-use Laravel\Passport\Guards\TokenGuard;
+use DiegoAgudo\Passport\Bridge\PersonalAccessGrant;
+use DiegoAgudo\Passport\Bridge\RefreshTokenRepository;
+use DiegoAgudo\Passport\Guards\TokenGuard;
 use Lcobucci\JWT\Configuration;
 use Lcobucci\JWT\Parser;
 use League\OAuth2\Server\AuthorizationServer;

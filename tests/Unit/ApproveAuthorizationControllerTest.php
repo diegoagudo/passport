@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Http\Request;
-use Laravel\Passport\Http\Controllers\ApproveAuthorizationController;
+use DiegoAgudo\Passport\Http\Controllers\ApproveAuthorizationController;
 use League\OAuth2\Server\AuthorizationServer;
 use League\OAuth2\Server\RequestTypes\AuthorizationRequest;
 use Mockery as m;

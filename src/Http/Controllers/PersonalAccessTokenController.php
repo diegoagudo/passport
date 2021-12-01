@@ -1,19 +1,19 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace DiegoAgudo\Passport\Http\Controllers;
 
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\Passport;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\TokenRepository;
 
 class PersonalAccessTokenController
 {
     /**
      * The token repository implementation.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \DiegoAgudo\Passport\TokenRepository
      */
     protected $tokenRepository;
 
@@ -27,7 +27,7 @@ class PersonalAccessTokenController
     /**
      * Create a controller instance.
      *
-     * @param  \Laravel\Passport\TokenRepository  $tokenRepository
+     * @param  \DiegoAgudo\Passport\TokenRepository  $tokenRepository
      * @param  \Illuminate\Contracts\Validation\Factory  $validation
      * @return void
      */
@@ -56,7 +56,7 @@ class PersonalAccessTokenController
      * Create a new personal access token for the user.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Laravel\Passport\PersonalAccessTokenResult
+     * @return \DiegoAgudo\Passport\PersonalAccessTokenResult
      */
     public function store(Request $request)
     {

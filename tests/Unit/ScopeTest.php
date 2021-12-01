@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\Scope;
+use DiegoAgudo\Passport\Scope;
 use PHPUnit\Framework\TestCase;
 
 class ScopeTest extends TestCase

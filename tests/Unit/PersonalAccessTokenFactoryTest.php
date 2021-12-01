@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\PersonalAccessTokenFactory;
-use Laravel\Passport\PersonalAccessTokenResult;
-use Laravel\Passport\Token;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\PersonalAccessTokenFactory;
+use DiegoAgudo\Passport\PersonalAccessTokenResult;
+use DiegoAgudo\Passport\Token;
+use DiegoAgudo\Passport\TokenRepository;
 use Lcobucci\JWT\Parser;
 use Lcobucci\JWT\Token\DataSet;
 use Lcobucci\JWT\Token\Plain as PlainToken;

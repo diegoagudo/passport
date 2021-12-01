@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Guards;
+namespace DiegoAgudo\Passport\Guards;
 
 use Exception;
 use Firebase\JWT\JWT;
@@ -10,11 +10,11 @@ use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Cookie\CookieValuePrefix;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Http\Request;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Passport;
-use Laravel\Passport\PassportUserProvider;
-use Laravel\Passport\TokenRepository;
-use Laravel\Passport\TransientToken;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\PassportUserProvider;
+use DiegoAgudo\Passport\TokenRepository;
+use DiegoAgudo\Passport\TransientToken;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\ResourceServer;
 use Nyholm\Psr7\Factory\Psr17Factory;
@@ -32,21 +32,21 @@ class TokenGuard
     /**
      * The user provider implementation.
      *
-     * @var \Laravel\Passport\PassportUserProvider
+     * @var \DiegoAgudo\Passport\PassportUserProvider
      */
     protected $provider;
 
     /**
      * The token repository instance.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \DiegoAgudo\Passport\TokenRepository
      */
     protected $tokens;
 
     /**
      * The client repository instance.
      *
-     * @var \Laravel\Passport\ClientRepository
+     * @var \DiegoAgudo\Passport\ClientRepository
      */
     protected $clients;
 
@@ -61,9 +61,9 @@ class TokenGuard
      * Create a new token guard instance.
      *
      * @param  \League\OAuth2\Server\ResourceServer  $server
-     * @param  \Laravel\Passport\PassportUserProvider  $provider
-     * @param  \Laravel\Passport\TokenRepository  $tokens
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\PassportUserProvider  $provider
+     * @param  \DiegoAgudo\Passport\TokenRepository  $tokens
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @param  \Illuminate\Contracts\Encryption\Encrypter  $encrypter
      * @return void
      */

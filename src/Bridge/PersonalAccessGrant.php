@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace DiegoAgudo\Passport\Bridge;
 
 use DateInterval;
 use League\OAuth2\Server\Grant\AbstractGrant;

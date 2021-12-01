@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Request;
-use Laravel\Passport\Http\Controllers\DenyAuthorizationController;
+use DiegoAgudo\Passport\Http\Controllers\DenyAuthorizationController;
 use League\OAuth2\Server\RequestTypes\AuthorizationRequest;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;

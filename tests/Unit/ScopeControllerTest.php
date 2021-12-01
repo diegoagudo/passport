@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\Http\Controllers\ScopeController;
-use Laravel\Passport\Passport;
-use Laravel\Passport\Scope;
+use DiegoAgudo\Passport\Http\Controllers\ScopeController;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\Scope;
 use PHPUnit\Framework\TestCase;
 
 class ScopeControllerTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Console;
+namespace DiegoAgudo\Passport\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Passport;
 use phpseclib\Crypt\RSA as LegacyRSA;
 use phpseclib3\Crypt\RSA;
 

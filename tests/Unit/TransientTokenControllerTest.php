@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Http\Request;
-use Laravel\Passport\ApiTokenCookieFactory;
-use Laravel\Passport\Http\Controllers\TransientTokenController;
+use DiegoAgudo\Passport\ApiTokenCookieFactory;
+use DiegoAgudo\Passport\Http\Controllers\TransientTokenController;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Cookie;

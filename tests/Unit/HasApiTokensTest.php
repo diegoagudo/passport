@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Container\Container;
-use Laravel\Passport\HasApiTokens;
-use Laravel\Passport\PersonalAccessTokenFactory;
+use DiegoAgudo\Passport\HasApiTokens;
+use DiegoAgudo\Passport\PersonalAccessTokenFactory;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 

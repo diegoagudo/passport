@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Http\Request;
-use Laravel\Passport\Client;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Http\Controllers\ClientController;
-use Laravel\Passport\Http\Rules\RedirectRule;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Http\Controllers\ClientController;
+use DiegoAgudo\Passport\Http\Rules\RedirectRule;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Response;

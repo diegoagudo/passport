@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\TransientToken;
+use DiegoAgudo\Passport\TransientToken;
 use PHPUnit\Framework\TestCase;
 
 class TransientTokenTest extends TestCase

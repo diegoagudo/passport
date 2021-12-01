@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace DiegoAgudo\Passport;
 
 use Carbon\Carbon;
 use DateInterval;
@@ -110,14 +110,14 @@ class Passport
      *
      * @var string
      */
-    public static $authCodeModel = 'Laravel\Passport\AuthCode';
+    public static $authCodeModel = 'DiegoAgudo\Passport\AuthCode';
 
     /**
      * The client model class name.
      *
      * @var string
      */
-    public static $clientModel = 'Laravel\Passport\Client';
+    public static $clientModel = 'DiegoAgudo\Passport\Client';
 
     /**
      * Indicates if client's are identified by UUIDs.
@@ -131,21 +131,21 @@ class Passport
      *
      * @var string
      */
-    public static $personalAccessClientModel = 'Laravel\Passport\PersonalAccessClient';
+    public static $personalAccessClientModel = 'DiegoAgudo\Passport\PersonalAccessClient';
 
     /**
      * The token model class name.
      *
      * @var string
      */
-    public static $tokenModel = 'Laravel\Passport\Token';
+    public static $tokenModel = 'DiegoAgudo\Passport\Token';
 
     /**
      * The refresh token model class name.
      *
      * @var string
      */
-    public static $refreshTokenModel = 'Laravel\Passport\RefreshToken';
+    public static $refreshTokenModel = 'DiegoAgudo\Passport\RefreshToken';
 
     /**
      * Indicates if Passport migrations will be run.
@@ -209,7 +209,7 @@ class Passport
 
         $defaultOptions = [
             'prefix' => 'oauth',
-            'namespace' => '\Laravel\Passport\Http\Controllers',
+            'namespace' => '\DiegoAgudo\Passport\Http\Controllers',
         ];
 
         $options = array_merge($defaultOptions, $options);
@@ -376,7 +376,7 @@ class Passport
     /**
      * Set the current user for the application with the given scopes.
      *
-     * @param  \Illuminate\Contracts\Auth\Authenticatable|\Laravel\Passport\HasApiTokens  $user
+     * @param  \Illuminate\Contracts\Auth\Authenticatable|\DiegoAgudo\Passport\HasApiTokens  $user
      * @param  array  $scopes
      * @param  string  $guard
      * @return \Illuminate\Contracts\Auth\Authenticatable
@@ -405,9 +405,9 @@ class Passport
     /**
      * Set the current client for the application with the given scopes.
      *
-     * @param  \Laravel\Passport\Client  $client
+     * @param  \DiegoAgudo\Passport\Client  $client
      * @param  array  $scopes
-     * @return \Laravel\Passport\Client
+     * @return \DiegoAgudo\Passport\Client
      */
     public static function actingAsClient($client, $scopes = [])
     {
@@ -486,7 +486,7 @@ class Passport
     /**
      * Get a new auth code model instance.
      *
-     * @return \Laravel\Passport\AuthCode
+     * @return \DiegoAgudo\Passport\AuthCode
      */
     public static function authCode()
     {
@@ -517,7 +517,7 @@ class Passport
     /**
      * Get a new client model instance.
      *
-     * @return \Laravel\Passport\Client
+     * @return \DiegoAgudo\Passport\Client
      */
     public static function client()
     {
@@ -569,7 +569,7 @@ class Passport
     /**
      * Get a new personal access client model instance.
      *
-     * @return \Laravel\Passport\PersonalAccessClient
+     * @return \DiegoAgudo\Passport\PersonalAccessClient
      */
     public static function personalAccessClient()
     {
@@ -600,7 +600,7 @@ class Passport
     /**
      * Get a new personal access client model instance.
      *
-     * @return \Laravel\Passport\Token
+     * @return \DiegoAgudo\Passport\Token
      */
     public static function token()
     {
@@ -631,7 +631,7 @@ class Passport
     /**
      * Get a new refresh token model instance.
      *
-     * @return \Laravel\Passport\RefreshToken
+     * @return \DiegoAgudo\Passport\RefreshToken
      */
     public static function refreshToken()
     {

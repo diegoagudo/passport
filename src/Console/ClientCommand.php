@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport\Console;
+namespace DiegoAgudo\Passport\Console;
 
 use Illuminate\Console\Command;
-use Laravel\Passport\Client;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Passport;
 
 class ClientCommand extends Command
 {
@@ -34,7 +34,7 @@ class ClientCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @return void
      */
     public function handle(ClientRepository $clients)
@@ -53,7 +53,7 @@ class ClientCommand extends Command
     /**
      * Create a new personal access client.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createPersonalClient(ClientRepository $clients)
@@ -75,7 +75,7 @@ class ClientCommand extends Command
     /**
      * Create a new password grant client.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createPasswordClient(ClientRepository $clients)
@@ -105,7 +105,7 @@ class ClientCommand extends Command
     /**
      * Create a client credentials grant client.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createClientCredentialsClient(ClientRepository $clients)
@@ -127,7 +127,7 @@ class ClientCommand extends Command
     /**
      * Create a authorization code client.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createAuthCodeClient(ClientRepository $clients)
@@ -157,7 +157,7 @@ class ClientCommand extends Command
     /**
      * Output the client's ID and secret key.
      *
-     * @param  \Laravel\Passport\Client  $client
+     * @param  \DiegoAgudo\Passport\Client  $client
      * @return void
      */
     protected function outputClientDetails(Client $client)

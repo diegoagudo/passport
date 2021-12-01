@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace DiegoAgudo\Passport\Http\Controllers;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Request;

@@ -1,17 +1,17 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Request;
-use Laravel\Passport\Bridge\Scope;
-use Laravel\Passport\Client;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Exceptions\OAuthServerException;
-use Laravel\Passport\Http\Controllers\AuthorizationController;
-use Laravel\Passport\Passport;
-use Laravel\Passport\Token;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Bridge\Scope;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Exceptions\OAuthServerException;
+use DiegoAgudo\Passport\Http\Controllers\AuthorizationController;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\Token;
+use DiegoAgudo\Passport\TokenRepository;
 use League\OAuth2\Server\AuthorizationServer;
 use League\OAuth2\Server\Exception\OAuthServerException as LeagueException;
 use League\OAuth2\Server\RequestTypes\AuthorizationRequest;

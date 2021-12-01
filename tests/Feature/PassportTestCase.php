@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace DiegoAgudo\Passport\Tests\Feature;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Laravel\Passport\Passport;
-use Laravel\Passport\PassportServiceProvider;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\PassportServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 abstract class PassportTestCase extends TestCase

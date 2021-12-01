@@ -1,20 +1,20 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace DiegoAgudo\Passport\Http\Controllers;
 
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Http\Rules\RedirectRule;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Http\Rules\RedirectRule;
+use DiegoAgudo\Passport\Passport;
 
 class ClientController
 {
     /**
      * The client repository instance.
      *
-     * @var \Laravel\Passport\ClientRepository
+     * @var \DiegoAgudo\Passport\ClientRepository
      */
     protected $clients;
 
@@ -28,16 +28,16 @@ class ClientController
     /**
      * The redirect validation rule.
      *
-     * @var \Laravel\Passport\Http\Rules\RedirectRule
+     * @var \DiegoAgudo\Passport\Http\Rules\RedirectRule
      */
     protected $redirectRule;
 
     /**
      * Create a client controller instance.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \DiegoAgudo\Passport\ClientRepository  $clients
      * @param  \Illuminate\Contracts\Validation\Factory  $validation
-     * @param  \Laravel\Passport\Http\Rules\RedirectRule  $redirectRule
+     * @param  \DiegoAgudo\Passport\Http\Rules\RedirectRule  $redirectRule
      * @return void
      */
     public function __construct(
@@ -73,7 +73,7 @@ class ClientController
      * Store a new client.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Laravel\Passport\Client|array
+     * @return \DiegoAgudo\Passport\Client|array
      */
     public function store(Request $request)
     {
@@ -100,7 +100,7 @@ class ClientController
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  string  $clientId
-     * @return \Illuminate\Http\Response|\Laravel\Passport\Client
+     * @return \Illuminate\Http\Response|\DiegoAgudo\Passport\Client
      */
     public function update(Request $request, $clientId)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport;
+namespace DiegoAgudo\Passport;
 
 class RefreshTokenRepository
 {
@@ -8,7 +8,7 @@ class RefreshTokenRepository
      * Creates a new refresh token.
      *
      * @param  array  $attributes
-     * @return \Laravel\Passport\RefreshToken
+     * @return \DiegoAgudo\Passport\RefreshToken
      */
     public function create($attributes)
     {
@@ -19,7 +19,7 @@ class RefreshTokenRepository
      * Gets a refresh token by the given ID.
      *
      * @param  string  $id
-     * @return \Laravel\Passport\RefreshToken
+     * @return \DiegoAgudo\Passport\RefreshToken
      */
     public function find($id)
     {
@@ -29,7 +29,7 @@ class RefreshTokenRepository
     /**
      * Stores the given token instance.
      *
-     * @param  \Laravel\Passport\RefreshToken  $token
+     * @param  \DiegoAgudo\Passport\RefreshToken  $token
      * @return void
      */
     public function save(RefreshToken $token)

@@ -1,16 +1,16 @@
 <?php
 
-namespace Laravel\Passport\Http\Middleware;
+namespace DiegoAgudo\Passport\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use Laravel\Passport\Exceptions\MissingScopeException;
+use DiegoAgudo\Passport\Exceptions\MissingScopeException;
 
 class CheckClientCredentials extends CheckCredentials
 {
     /**
      * Validate token credentials.
      *
-     * @param  \Laravel\Passport\Token  $token
+     * @param  \DiegoAgudo\Passport\Token  $token
      * @return void
      *
      * @throws \Illuminate\Auth\AuthenticationException
@@ -25,11 +25,11 @@ class CheckClientCredentials extends CheckCredentials
     /**
      * Validate token credentials.
      *
-     * @param  \Laravel\Passport\Token  $token
+     * @param  \DiegoAgudo\Passport\Token  $token
      * @param  array  $scopes
      * @return void
      *
-     * @throws \Laravel\Passport\Exceptions\MissingScopeException
+     * @throws \DiegoAgudo\Passport\Exceptions\MissingScopeException
      */
     protected function validateScopes($token, $scopes)
     {

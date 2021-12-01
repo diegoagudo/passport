@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Passport\Console;
+namespace DiegoAgudo\Passport\Console;
 
 use Illuminate\Console\Command;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Passport;
 
 class InstallCommand extends Command
 {

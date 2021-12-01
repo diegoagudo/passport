@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Console;
+namespace DiegoAgudo\Passport\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Passport;
 
 class PurgeCommand extends Command
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace DiegoAgudo\Passport\Tests\Feature;
 
 use Illuminate\Contracts\Routing\Registrar;
 use Illuminate\Foundation\Auth\User;
-use Laravel\Passport\HasApiTokens;
-use Laravel\Passport\Http\Middleware\CheckForAnyScope;
-use Laravel\Passport\Http\Middleware\CheckScopes;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\HasApiTokens;
+use DiegoAgudo\Passport\Http\Middleware\CheckForAnyScope;
+use DiegoAgudo\Passport\Http\Middleware\CheckScopes;
+use DiegoAgudo\Passport\Passport;
 
 class ActingAsTest extends PassportTestCase
 {

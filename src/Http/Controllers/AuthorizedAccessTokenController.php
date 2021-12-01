@@ -1,33 +1,33 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace DiegoAgudo\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\RefreshTokenRepository;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\RefreshTokenRepository;
+use DiegoAgudo\Passport\TokenRepository;
 
 class AuthorizedAccessTokenController
 {
     /**
      * The token repository implementation.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \DiegoAgudo\Passport\TokenRepository
      */
     protected $tokenRepository;
 
     /**
      * The refresh token repository implementation.
      *
-     * @var \Laravel\Passport\RefreshTokenRepository
+     * @var \DiegoAgudo\Passport\RefreshTokenRepository
      */
     protected $refreshTokenRepository;
 
     /**
      * Create a new controller instance.
      *
-     * @param  \Laravel\Passport\TokenRepository  $tokenRepository
-     * @param  \Laravel\Passport\RefreshTokenRepository  $refreshTokenRepository
+     * @param  \DiegoAgudo\Passport\TokenRepository  $tokenRepository
+     * @param  \DiegoAgudo\Passport\RefreshTokenRepository  $refreshTokenRepository
      * @return void
      */
     public function __construct(TokenRepository $tokenRepository, RefreshTokenRepository $refreshTokenRepository)

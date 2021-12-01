@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Carbon\Carbon;
 use Firebase\JWT\JWT;
@@ -10,12 +10,12 @@ use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
 use Illuminate\Cookie\CookieValuePrefix;
 use Illuminate\Encryption\Encrypter;
 use Illuminate\Http\Request;
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Guards\TokenGuard;
-use Laravel\Passport\HasApiTokens;
-use Laravel\Passport\Passport;
-use Laravel\Passport\PassportUserProvider;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\ClientRepository;
+use DiegoAgudo\Passport\Guards\TokenGuard;
+use DiegoAgudo\Passport\HasApiTokens;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\PassportUserProvider;
+use DiegoAgudo\Passport\TokenRepository;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\ResourceServer;
 use Mockery as m;

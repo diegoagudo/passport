@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\Exceptions\OAuthServerException;
-use Laravel\Passport\Http\Controllers\AccessTokenController;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Exceptions\OAuthServerException;
+use DiegoAgudo\Passport\Http\Controllers\AccessTokenController;
+use DiegoAgudo\Passport\TokenRepository;
 use Lcobucci\JWT\Parser;
 use League\OAuth2\Server\AuthorizationServer;
 use League\OAuth2\Server\Exception\OAuthServerException as LeagueException;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\Exceptions\OAuthServerException;
-use Laravel\Passport\Http\Controllers\HandlesOAuthErrors;
+use DiegoAgudo\Passport\Exceptions\OAuthServerException;
+use DiegoAgudo\Passport\Http\Controllers\HandlesOAuthErrors;
 use League\OAuth2\Server\Exception\OAuthServerException as LeagueException;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport\Database\Factories;
+namespace DiegoAgudo\Passport\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use Laravel\Passport\Client;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\Passport;
 
 class ClientFactory extends Factory
 {

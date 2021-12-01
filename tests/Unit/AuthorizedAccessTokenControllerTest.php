@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Http\Request;
-use Laravel\Passport\Client;
-use Laravel\Passport\Http\Controllers\AuthorizedAccessTokenController;
-use Laravel\Passport\RefreshTokenRepository;
-use Laravel\Passport\Token;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\Http\Controllers\AuthorizedAccessTokenController;
+use DiegoAgudo\Passport\RefreshTokenRepository;
+use DiegoAgudo\Passport\Token;
+use DiegoAgudo\Passport\TokenRepository;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Response;
@@ -15,12 +15,12 @@ use Symfony\Component\HttpFoundation\Response;
 class AuthorizedAccessTokenControllerTest extends TestCase
 {
     /**
-     * @var \Mockery\Mock|\Laravel\Passport\TokenRepository
+     * @var \Mockery\Mock|\DiegoAgudo\Passport\TokenRepository
      */
     protected $tokenRepository;
 
     /**
-     * @var \Mockery\Mock|\Laravel\Passport\RefreshTokenRepository
+     * @var \Mockery\Mock|\DiegoAgudo\Passport\RefreshTokenRepository
      */
     protected $refreshTokenRepository;
 

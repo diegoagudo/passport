@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Passport\Tests\Feature;
+namespace DiegoAgudo\Passport\Tests\Feature;
 
 use Illuminate\Contracts\Routing\Registrar;
-use Laravel\Passport\Client;
-use Laravel\Passport\Http\Middleware\CheckClientCredentials;
-use Laravel\Passport\Http\Middleware\CheckClientCredentialsForAnyScope;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\Http\Middleware\CheckClientCredentials;
+use DiegoAgudo\Passport\Http\Middleware\CheckClientCredentialsForAnyScope;
+use DiegoAgudo\Passport\Passport;
 use Orchestra\Testbench\TestCase;
 
 class ActingAsClientTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\Http\Middleware\CheckScopes;
+use DiegoAgudo\Passport\Http\Middleware\CheckScopes;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 
@@ -31,7 +31,7 @@ class CheckScopesTest extends TestCase
 
     public function test_exception_is_thrown_if_token_doesnt_have_scope()
     {
-        $this->expectException('Laravel\Passport\Exceptions\MissingScopeException');
+        $this->expectException('DiegoAgudo\Passport\Exceptions\MissingScopeException');
 
         $middleware = new CheckScopes;
         $request = m::mock();

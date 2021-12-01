@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Passport\Http\Controllers;
+namespace DiegoAgudo\Passport\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
-use Laravel\Passport\Bridge\User;
-use Laravel\Passport\Exceptions\InvalidAuthTokenException;
+use DiegoAgudo\Passport\Bridge\User;
+use DiegoAgudo\Passport\Exceptions\InvalidAuthTokenException;
 
 trait RetrievesAuthRequestFromSession
 {
@@ -15,7 +15,7 @@ trait RetrievesAuthRequestFromSession
      * @param  \Illuminate\Http\Request  $request
      * @return void
      *
-     * @throws \Laravel\Passport\Exceptions\InvalidAuthTokenException
+     * @throws \DiegoAgudo\Passport\Exceptions\InvalidAuthTokenException
      */
     protected function assertValidAuthToken(Request $request)
     {

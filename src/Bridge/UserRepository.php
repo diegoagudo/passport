@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Passport\Bridge;
+namespace DiegoAgudo\Passport\Bridge;
 
 use Illuminate\Contracts\Hashing\Hasher;
 use League\OAuth2\Server\Entities\ClientEntityInterface;

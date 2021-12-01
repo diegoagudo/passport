@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laravel\Passport\ApiTokenCookieFactory;
-use Laravel\Passport\Http\Middleware\CreateFreshApiToken;
-use Laravel\Passport\Passport;
+use DiegoAgudo\Passport\ApiTokenCookieFactory;
+use DiegoAgudo\Passport\Http\Middleware\CreateFreshApiToken;
+use DiegoAgudo\Passport\Passport;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Cookie;

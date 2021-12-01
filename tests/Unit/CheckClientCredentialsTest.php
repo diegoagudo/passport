@@ -1,12 +1,12 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Illuminate\Http\Request;
-use Laravel\Passport\Client;
-use Laravel\Passport\Http\Middleware\CheckClientCredentials;
-use Laravel\Passport\Token;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Client;
+use DiegoAgudo\Passport\Http\Middleware\CheckClientCredentials;
+use DiegoAgudo\Passport\Token;
+use DiegoAgudo\Passport\TokenRepository;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use League\OAuth2\Server\ResourceServer;
 use Mockery as m;
@@ -104,7 +104,7 @@ class CheckClientCredentialsTest extends TestCase
 
     public function test_exception_is_thrown_if_token_does_not_have_required_scopes()
     {
-        $this->expectException('Laravel\Passport\Exceptions\MissingScopeException');
+        $this->expectException('DiegoAgudo\Passport\Exceptions\MissingScopeException');
 
         $resourceServer = m::mock(ResourceServer::class);
         $resourceServer->shouldReceive('validateAuthenticatedRequest')->andReturn($psr = m::mock());

@@ -1,14 +1,14 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Contracts\Events\Dispatcher;
-use Laravel\Passport\Bridge\AccessToken;
-use Laravel\Passport\Bridge\AccessTokenRepository;
-use Laravel\Passport\Bridge\Client;
-use Laravel\Passport\Bridge\Scope;
-use Laravel\Passport\TokenRepository;
+use DiegoAgudo\Passport\Bridge\AccessToken;
+use DiegoAgudo\Passport\Bridge\AccessTokenRepository;
+use DiegoAgudo\Passport\Bridge\Client;
+use DiegoAgudo\Passport\Bridge\Scope;
+use DiegoAgudo\Passport\TokenRepository;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 

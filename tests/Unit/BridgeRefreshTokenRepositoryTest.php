@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\Bridge\RefreshTokenRepository as BridgeRefreshTokenRepository;
-use Laravel\Passport\RefreshTokenRepository;
+use DiegoAgudo\Passport\Bridge\RefreshTokenRepository as BridgeRefreshTokenRepository;
+use DiegoAgudo\Passport\RefreshTokenRepository;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 

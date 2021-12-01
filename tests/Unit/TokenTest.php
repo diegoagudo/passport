@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Passport\Tests\Unit;
+namespace DiegoAgudo\Passport\Tests\Unit;
 
-use Laravel\Passport\Passport;
-use Laravel\Passport\Token;
+use DiegoAgudo\Passport\Passport;
+use DiegoAgudo\Passport\Token;
 use PHPUnit\Framework\TestCase;
 use ReflectionObject;
 
